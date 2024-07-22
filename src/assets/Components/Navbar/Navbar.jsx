@@ -1,10 +1,14 @@
 import React from 'react'
 import './Navbar.css'
+import cvlogo from '../../Images/downloadcv.png'
 
 const Navbar = () => {
   return (
     <header className='header'>
-        <a href='/' className='resume'>Resume/CV</a>
+         <a href='/' className='resume'>
+        <img src={cvlogo} alt='Logo' className='logo' />
+        Resume/CV
+      </a>
 
         <nav className='navbar'>
             <a href='/'>Home</a>

@@ -1,41 +1,57 @@
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 8%;
+    padding: 40px 8%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-.resume{
-    font-size: 17px;
+
+.resume {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
     color: #d6d3d1;
     font-weight: 500;
-    margin-left: 100px;
+    cursor: pointer;
+    margin-right: 100px;
 }
 
-.navbar a{
+.logo {
+    width: 30px;
+    cursor: default;
+    height: 30px;
+    margin-right: 10px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
     position: relative;
     font-size: 15px;
     color: #d6d3d1;
-    font-weight: 400;
-    margin-left: 50px;
+    font-weight: 500;
+    margin-left: 45px;
 }
-.navbar a::before{
+
+.navbar a::before {
     content: '';
     position: absolute;
-    width: 100%;
     top: 100%;
     left: 0;
     width: 0;
     height: 2px;
     background: #FE0944;
     transition: .3s;
-
 }
-.navbar a:hover::before{
+
+.navbar a:hover::before {
     width: 100%;
 }
