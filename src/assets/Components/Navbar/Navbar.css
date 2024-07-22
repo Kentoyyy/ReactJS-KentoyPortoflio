@@ -1,0 +1,40 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.resume{
+    font-size: 17px;
+    color: #d6d3d1;
+    font-weight: 500;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 15px;
+    color: #d6d3d1;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FE0944;
+    transition: .2s;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
