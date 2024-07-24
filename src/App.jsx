@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './assets/Components/Navbar/Navbar'
-import Intro from './assets/Components/Intro/intro'
+import Landing from './assets/Components/Home/landing'
 
 const App = () => {
   return (
    <div>
     <Navbar/>
-    <Intro/>
+    <Landing/>
    </div>
   )
 }

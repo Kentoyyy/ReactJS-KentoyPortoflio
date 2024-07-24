@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#landing {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    color: #d6d3d1;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    object-fit: cover;
+    z-index: 1;
+    height: 80vh;
+    width: 80vh;
+
+}
+
+.landingContent {
+    height: 100vh;
+    width: 100vw;
+    padding: -3rem;
+    font-size: 20px;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+    left: -4rem;
+}
+
+.landinghello {
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.introName {
+    font-size: 65px;
+    letter-spacing: 1px;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    background: -webkit-linear-gradient(90deg, #A40606 0%, #D98324 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landingPara {
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.socialMedia {
+    display: flex; /* Display items in a horizontal row */
+  align-items: center; /* Center items vertically within the container */
+  }
+  
+  .socialMedia div {
+    margin: 0 10px; /* Add horizontal margin between icons */
+  }
