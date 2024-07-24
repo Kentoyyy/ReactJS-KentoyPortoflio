@@ -23,7 +23,7 @@ const Intro = () => {
   return (
     <section id='landing'>
       <div className="landingContent">
-        <span className="landinghello">Hi there!, 🤗 I&apos; m </span>
+        <span className="landinghello">Hi there!, 🤗 I&apos;m </span>
         <span className="landingText"><span className="introName">Ken Alcantara</span></span>
         <p className="landingPara">A Front-End Developer specialized in mobile development<br />with an interest in web development</p>
 
