@@ -1,7 +1,8 @@
 import React from 'react'
+import { BsMouse } from "react-icons/bs";
 import { BsFacebook, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 import './landing.css'
-import profile from '../../Images/kprofile.png'
+import profile from '../../Images/myprofile.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Intro = () => {
@@ -22,7 +23,7 @@ const Intro = () => {
   return (
     <section id='landing'>
       <div className="landingContent">
-        <span className="landinghello">Hi there!, I'm </span>
+        <span className="landinghello">Hi there!, 🤗 I&apos; m </span>
         <span className="landingText"><span className="introName">Ken Alcantara</span></span>
         <p className="landingPara">A Front-End Developer specialized in mobile development<br />with an interest in web development</p>
 
@@ -39,6 +40,10 @@ const Intro = () => {
           <div onClick={handleLinkedinClick} style={{ cursor: 'pointer' }}>
             <BsLinkedin style={{ color: '#fff' }} size={32} />
           </div>
+        </div>
+        <div className='scrollMouse'>
+          <BsMouse size={32} />
+          <span className='scrolltxt'>Scroll down to see more</span>
 
         </div>
       </div>
