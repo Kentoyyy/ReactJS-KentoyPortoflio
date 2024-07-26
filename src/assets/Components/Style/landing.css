@@ -72,36 +72,49 @@
     position: relative;
     
 }
-@media screen and (max-width: 840px){
-    .profile{
-        right: -15vw;
+
+@media screen and (max-width: 1200px) {
+    .profile {
+        right: -30vw;
         justify-content: center;
-        transition: .2s;
+        transition: 0.2s;
         align-items: center;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .landingContent{
+    .landingContent {
         font-size: 10vw;
-        transition: .2s;
+        transition: 0.2s;
         justify-content: center;
-      
         align-items: center;
+        display: flex;
+        flex-direction: column;
     }
-    .introName{
+    .introName {
         font-size: 60px;
     }
-    .landinghello{
+    .landinghello {
         font-size: 4.5vw;
-        justify-content: center;
-        align-items: center;
-    }
-    .landingPara{
         text-align: center;
-        align-items: center;
+    }
+    .landingPara {
+        text-align: center;
         margin: 0 auto;
         font-size: 4.5vw;
         max-width: 90%;
+    }
+    .scrollMouse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 500px; 
+    }
+    .scrollMouse .icon {
+        margin-right: 10px;
+    }
+    .scrolltxt {
+        font-size: 3.5vw; 
+        text-align: center;
     }
 }
 @media screen and (max-width:480px){

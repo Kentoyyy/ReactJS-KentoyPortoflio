@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsMouse } from "react-icons/bs";
 import { BsFacebook, BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
-import './landing.css'
+import './../Style/landing.css'
 import profile from '../../Images/myprofile.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -48,7 +48,12 @@ const Intro = () => {
         </div>
       </div>
       <img src={profile} alt='Profile' className='profile' />
+
+      
+      
     </section>
+
+   
   );
 }
 
