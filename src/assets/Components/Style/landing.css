@@ -34,13 +34,13 @@
 }
 
 .landinghello {
-    font-size: 21px;
+    font-size: 19px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
 
 .introName {
-    font-size: 65px;
+    font-size: 55px;
     letter-spacing: 1px;
     font-family: "Anton", sans-serif;
     font-weight: 500;
@@ -50,7 +50,7 @@
 }
 
 .landingPara {
-    font-size: 19px;
+    font-size: 17px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }

@@ -37,19 +37,18 @@
   }
 
   .skillsContainer {
-    
+      margin: 25px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
   }
 
   .myskills {
-    
       background-color: #111;
-      padding: 20px;
+      padding: 35px;
       border-radius: 10px;
       width: 23%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       transition: transform 0.3s;
       margin: 10px;
   }
@@ -70,15 +69,15 @@
   .myskillText h2 {
     font-family: "Anton", sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 18px;
     position: absolute;
-    margin-top: -55px;
+    margin-top: -50px;
     margin-left: 50px;
   }
 
   .myskillText p {
       margin: 8px;
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.9;
       color: #d1d1d1;
       opacity: 90%;
