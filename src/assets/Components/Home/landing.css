@@ -15,9 +15,9 @@
     top: 11rem;
     right: 0;
     object-fit: cover;
-    z-index: 1;
-    height: 65vh;
-    width: 65vh;
+    z-index: -1;
+    height: 70vh;
+    
 
 }
 
@@ -30,7 +30,7 @@
     font-weight: 500;
     flex-direction: column;
     justify-content: center;
-    left: -4rem;
+    
 }
 
 .landinghello {
@@ -71,4 +71,41 @@
     font-size: 13px;
     position: relative;
     
+}
+@media screen and (max-width: 840px){
+    .profile{
+        right: -10vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+    }
+    .landingContent{
+        font-size: 10vw;
+        justify-content: center;
+      
+        align-items: center;
+    }
+    .introName{
+        font-size: 60px;
+    }
+    .landinghello{
+        font-size: 4.5vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .landingPara{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 4.5vw;
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:480px){
+    .profile{
+        right: -20vw;
+        
+    }
+  
 }
