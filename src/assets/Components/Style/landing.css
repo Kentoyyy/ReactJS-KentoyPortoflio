@@ -44,7 +44,7 @@
     letter-spacing: 1px;
     font-family: "Anton", sans-serif;
     font-weight: 500;
-    background: -webkit-linear-gradient(180deg, #A8142A 30%, #ad2e4b 95%);
+    background: -webkit-linear-gradient(180deg, #A8142A 30%, #e7b9b9 95%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

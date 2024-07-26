@@ -4,7 +4,8 @@
     left: 0;
     width: 100%;
     padding: 40px 8%;
-    background: transparent;
+    background: black;
+    opacity: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
