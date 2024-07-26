@@ -74,14 +74,16 @@
 }
 @media screen and (max-width: 840px){
     .profile{
-        right: -10vw;
+        right: -15vw;
         justify-content: center;
+        transition: .2s;
         align-items: center;
         display: flex;
         flex-direction: column; 
     }
     .landingContent{
         font-size: 10vw;
+        transition: .2s;
         justify-content: center;
       
         align-items: center;
