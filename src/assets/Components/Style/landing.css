@@ -108,10 +108,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 650px; 
+        margin-top: 750px; 
     }
     .scrollMouse .icon {
         margin-right: 10px;
+        margin-top: 200px;
     }
     .scrolltxt {
         font-size: 3.5vw; 

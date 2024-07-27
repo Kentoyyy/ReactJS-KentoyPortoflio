@@ -15,7 +15,6 @@
 .skillTitle {
     font-size: 3.5rem;
     font-weight: 900;
-   
     font-family: "Roboto Condensed", sans-serif;
     background: -webkit-linear-gradient(180deg, #A8142A 30%, #ffffff 95%);
     -webkit-background-clip: text;
@@ -39,21 +38,22 @@
 }
 
 .skillsContainer {
+    margin: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 15px; 
 }
 
 .myskills {
     background-color: #111;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
-    width: calc(25% - 20px);
+    width: 23%;
     border: 3px solid transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s, border-color 0.3s;
-    margin: 0; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    margin: 10px;
+    height: auto;
 }
 
 .myskills:hover {
@@ -62,7 +62,7 @@
 }
 
 .skillIcon {
-    margin-bottom: 10px; /* Reduced margin */
+    margin-bottom: 20px;
 }
 
 .myskillText {
@@ -73,16 +73,51 @@
     font-family: "Anton", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    margin-top: -30px; 
-    margin-left: 40px; 
+    margin-bottom: 20px;
 }
 
 .myskillText p {
     margin: 0px;
-    margin-top: 35px;
     font-size: 14px;
-    line-height: 1.9; /* Reduced line height */
+    line-height: 2;
     color: #d1d1d1;
     opacity: 90%;
     cursor: default;
+}
+
+@media screen and (max-width: 1400px) {
+    .myskillText > p {
+        font-size: 3vw;
+    }
+
+    .skillSubtitle {
+        font-size: 4.5vw;
+    }
+
+    .skillIcon {
+        height: 1.25rem;
+        width: 1.25rem;
+    }
+
+    .myskillText > h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skillsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myskills {
+        width: 80%;
+        margin: 15px 0;
+    }
+
+    .myskillText h2 {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
 }
