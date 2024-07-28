@@ -5,6 +5,7 @@ import Skills from './assets/Components/Home/skills'
 import TechStack from './assets/Components/Home/techstack'
 import Work from './assets/Components/Home/work'
 import Cert from './assets/Components/Home/certificates'
+import About from './assets/Components/Home/about'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <TechStack/>
     <Work/>
     <Cert/>
+    <About/>
    
    </div>
   )
