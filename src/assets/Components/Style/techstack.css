@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.tech {
+    color: #fff;
+    padding: 40px;
+    background-color: #000;
+}
+
+.techContainer {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.techTitle {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    background: -webkit-linear-gradient(180deg, #A8142A 30%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.techDesc {
+    font-size: 14px;
+    color: #d1d1d1;
+    
+}
+
+.techSkillContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+}
+.underText{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+.techBox {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    width: 350px;
+    height: 300px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+.techBox:hover{
+    transform: scale(1.05);
+    border-color: #A8142A;
+    
+}
+
+.techBoxTitle {
+    font-size: 1.3rem;
+    font-weight: 66600;
+    
+    font-family: "Anton", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.techIcons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.techIcons img {
+    width: 50px;
+    height: 50px;
+   
+    transition: filter 0.3s;
+}
+
+.techIcons img:hover {
+    filter: grayscale(20%);
+}
+
+.seeMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+}
+
+.seeMore span {
+    display: inline-block;
+}
+
+.seeMore svg {
+    transition: transform 0.3s;
+}
+
+.seeMore:hover svg {
+    transform: translateX(5px);
+}
+
+.stackText {
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    background: -webkit-linear-gradient(180deg, #A8142A 30%, #e7b9b9 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
