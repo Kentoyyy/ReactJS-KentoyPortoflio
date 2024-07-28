@@ -19,10 +19,10 @@ const techstack = () => {
         <div className="techBox">
           <h3 className="techBoxTitle">WEB / MOBILE</h3>
           <div className="techIcons">
-          <img src={tecHTML} alt="Python" />
+            <img src={tecHTML} alt="Python" />
             <img src={techCSS} alt="PyTorch" />
             <img src={techJavascript} alt="TensorFlow" />
-            {/* Add more icons as needed */}
+
           </div>
           <div className="seeMore">
             <span>See more</span>
@@ -35,7 +35,7 @@ const techstack = () => {
             <img src={techTensorflow} alt="Python" />
             <img src={techPython} alt="PyTorch" />
             <img src={techPytorch} alt="TensorFlow" />
-            {/* Add more icons as needed */}
+
           </div>
           <div className="seeMore">
             <span>See more</span>

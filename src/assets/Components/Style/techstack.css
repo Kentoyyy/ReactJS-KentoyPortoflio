@@ -117,3 +117,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 1400px) {
+    .techSkillContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .techBox {
+        width: 80%;
+        margin: 15px 0;
+    }
+
+    .myskillText h2 {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+}
