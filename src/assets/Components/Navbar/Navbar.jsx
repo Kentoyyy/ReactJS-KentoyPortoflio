@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './../Style/Navbar.css';
 import cvlogo from '../../Images/downloadcv.png';
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header className='header'>
-      <a href='/' className='resume'>  
+      <a href='/' className='resume'>
         <img src={cvlogo} alt='Logo' className='logo' />
         Resume/CV
       </a>
@@ -22,11 +23,11 @@ const Navbar = () => {
 
       <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
         <a href='/'>Home</a>
-        <a href='/'>Techstack</a>
-        <a href='/'>Works</a>
-        <a href='/'>Certificates</a>
-        <a href='/'>About Me</a>
-        <a href='/'>Contact</a>
+        <a href='#techstack'>Techstack</a>
+        <a href='#works'>Works</a>
+        <a href='#certificates'>Certificates</a>
+        <a href='#about'>About Me</a>
+        <a href='#contact'>Contact</a>
       </nav>
     </header>
   );
