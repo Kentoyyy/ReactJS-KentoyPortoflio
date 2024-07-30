@@ -10,12 +10,12 @@
 .contactContainer {
     margin-top: 25rem;
     text-align: center;
-    max-width: 800px; /* Limit the width of the content */
+    max-width: 800px; 
     margin-left: auto;
     align-items: center;
    
     margin-right: auto;
-    padding: 0 20px; /* Add padding to the sides */
+    padding: 0 20px; 
 }
 
 .contactTitle {
