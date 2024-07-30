@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.body{
 
+}
 .Contact {
     color: #fff;
+
     padding: 30px;
     background-color: #000;
 }
@@ -12,8 +15,8 @@
     text-align: center;
     max-width: 800px; 
     margin-left: auto;
+    height: 50vh;
     align-items: center;
-   
     margin-right: auto;
     padding: 0 20px; 
 }
@@ -21,14 +24,14 @@
 .contactTitle {
     font-size: 35px;
     letter-spacing: 1px;
-    font-family: "Anton", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     
 }
 .contactName{
     font-size: 35px;
     
-    color: #A8142A ;
+    color: #fb6c6c ;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
