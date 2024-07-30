@@ -6,6 +6,9 @@ import TechStack from './assets/Components/Home/techstack'
 import Work from './assets/Components/Home/work'
 import Cert from './assets/Components/Home/certificates'
 import About from './assets/Components/Home/about'
+import Contact from './assets/Components/Home/contact'
+
+
 
 
 const App = () => {
@@ -18,6 +21,8 @@ const App = () => {
     <Work/>
     <Cert/>
     <About/>
+    <Contact/>
+    
    
    </div>
   )
